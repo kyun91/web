@@ -1,0 +1,26 @@
+
+div.tableWrapper{
+            width:800px;
+            margin: 0 auto;
+			      text-align:center;
+}
+
+.tableWrapper table{
+              border:2px solid #2980b9;
+			        border-collapse:collapse;
+              height:200px;
+}
+
+.tableWrapper table th{
+           background:#2980b9;
+		       color:white;
+}
+
+.colFirst{
+         width:70px;
+		 background:#2980b9;
+		 color:white;
+}
+#secondTable{
+                margin:50px 0;
+}
