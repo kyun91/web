@@ -4,10 +4,13 @@
 <meta charset="UTF-8">
 <title>English & Literature</title>
 <link rel="stylesheet" href="./css/Main.css">
+<link rel="stylesheet" href="./css/VocaList.css">
 <link rel="stylesheet" href="./css/HeaderFooter.css">
 <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script src="./js/Main.js"></script>
+<script src="./jquery-3.2.1.js"></script>
+<script src="./js/VocaList.js"></script>
+
+
 </head>
 <body>
 <!---------------------------------- Wrapper ------------------------------------------->
@@ -48,7 +51,58 @@
 
 <!---------------------------------- Section ------------------------------------------->
 
-		<section id="main">
+		<section id="main" class="container">
+			<div id="sectionDiv">
+										<div id="topWrapper">
+
+														<div class="topTitle">
+															페이징&블록 처리 테스트
+														</div>
+
+														<div id="firstIn">
+															<input type="text" class="titleInput" value="총레코드"  readonly>
+															<input type="text" class="titleInput" value="nowPage"  readonly>
+															<input type="text" class="titleInput" value="nowBlock" readonly>
+														</div>
+
+														<div id="secondIn">
+															<input type="text"  class="titleInput" value="" readonly>
+															<input type="text"  class="titleInput" value="" readonly>
+															<input type="text"  class="titleInput" value=""readonly>
+														</div>
+										</div>
+
+										<div id="listWrapper">
+														<div id="selectBox">
+																		<select name="selectNum" id="boxNumber">
+																				<option value=""selected >출력개수 선택</option>
+																				<option vlaue="5" >5개씩</option>
+																				<option vlaue="10">10개씩</option>
+																				<option vlaue="20" >20개씩</option>
+																				<option vlaue="30" >30개씩</option>
+																				<option vlaue="40" >40개씩</option>
+																		</select>
+														</div>
+
+														<div id="title">
+																			<span class="num">Number</span>
+																			<span class="wor">Word</span>
+																			<span class="pro">Pronunciation</span>
+																			<span class="mea">Meaning</span>
+														</div>
+
+														<div id="wordWrapper">
+
+														</div>
+
+										</div>
+
+										<div id="pageWrapper">
+														<div id="pageMark">
+
+														</div>
+										</div>
+			</div>
 
 		</section>
 
