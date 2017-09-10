@@ -1,0 +1,52 @@
+@CHARSET "UTF-8";
+
+/**************************[Section]****************************/
+	body{
+		font-family: 'Inconsolata', monospace;
+	}
+	#main{
+		text-align:center;
+		padding-top:7rem;
+	}
+	#banner {
+		list-style:none;
+		padding-left:88px;
+
+	}
+	#banner li{
+		display:inline-block;
+		background:#e74c3c;
+
+	}
+	#banner .bannerBtnColor{
+		background:rgb(43,149,255);
+	}
+	#banner li a{
+		/* rgb(255,136,17); 오렌지색 #e74c3c:red*/
+		/* rgb(43,149,255); 파란색*/
+		color:white;
+		font-weight:bold;
+	}
+	#main .banner_mask{
+		position:relative;
+		width:600px;
+		height:500px;
+		margin-left:18rem;
+
+	}
+
+	#main .banner_mask .banImg{
+		display: block;
+        float:left;
+		width:600px; height:500px;
+		border-radius:1rem;
+
+	}
+	#main .banner_Box{
+        position:absolute;
+        left:0;
+        top:100;
+        margin-left:40px;
+        border:4px solid rgba(201,198,167,0.8);
+        border-radius:1rem;
+	}
