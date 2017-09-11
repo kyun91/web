@@ -8,7 +8,7 @@ function init(){
 	$userLogin = $(".userLogin");
 	$userLogin.click(function(){
 			alert("로그인 정보가 옳바르지 않습니다. Guest로 접속합니다.");
-			window.open("index.html","_parent");
+			window.open("Main.html","_parent");
 	});
 }
 
