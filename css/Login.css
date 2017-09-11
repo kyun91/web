@@ -1,0 +1,96 @@
+body{
+ background-color:#F9EED7;
+
+}
+
+#wrapper{
+           width:500px;
+				   height:auto;
+				   margin: 90px auto;
+				   text-align:center;
+
+}
+
+div h1{
+          font-weight:bold;
+		  color:black;
+          background:white;
+		  border-radius:10px;
+		  font-family: 'Inconsolata', monospace;
+}
+
+
+img{
+        margin-top:50px;
+         border-radius:100%;
+		 width:150px;
+		 height:150px;
+		 border:1px solid #F32C52;
+		 background-color:#F32C52;
+
+}
+
+input.idPw{
+      margin-top:20px;
+	  width:200px;
+	  border-radius:5px;
+	  background:rgb(232,232,232);
+	  border:0px;
+	  height:25px;
+      font-weight:bold;
+      font-family: 'Inconsolata', monospace;
+}
+
+input.userLogin{
+      width:200px;
+			height:30px;
+			background:#F32C52;
+			border-radius:5px;
+			color:white;
+			font-size:15px;
+			border:0px;
+			letter-spacing:3px;
+            margin-top:20px;
+			cursor:pointer;
+			font-weight:bold;
+			font-family: 'Inconsolata', monospace;
+}
+
+
+div.userInfo{
+         margin-top:20px;
+
+}
+#logForm{
+   background:white;
+	  border-radius:10px;
+}
+input[type="button"]{
+   background-color:rgb(0,208,0);
+   border:0px;
+   width:95px;
+   height:20px;
+   cursor:pointer;
+   border-radius:5px;
+   color:white;
+   font-family: 'Inconsolata', monospace;
+}
+
+#logForm p{
+    font-size:15px;
+		color:rgb(180,180,180);
+		font-weight:bold;
+		font-family: 'Inconsolata', monospace;
+    padding-bottom: 25px;
+
+}
+
+#register{
+    color:rgb(255,60,60);
+	text-decoration:none;
+	font-weight:bold;
+}
+
+#findPw{
+    color:rgb(255,136,17);
+}
