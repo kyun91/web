@@ -414,20 +414,20 @@ function pageMaker(){
       $pageMark.children().append("<li>▣</li>");
     }
     else{
-      $pageMark.children().append("<li><a href='#' class='pageBtn' style='color:black'><<</a></li>");
+      $pageMark.children().append("<li><a class='pageBtn' style='color:black'><<</a></li>");
     }
 
 
 
     if( nowBlock < totalBlock ){
       for(var i= ((nowBlock-1)*10)+1; i<=(nowBlock)*10; i++){
-          $pageMark.children().append("<li><a href='#' class='pageBtn' style='color:black'>"+i+"</a></li>");
+          $pageMark.children().append("<li><a class='pageBtn' style='color:black'>"+i+"</a></li>");
       }
-      $pageMark.children().append("<li><a href='#' class='pageBtn' style='color:black'>>></a></li>");
+      $pageMark.children().append("<li><a class='pageBtn' style='color:black'>>></a></li>");
     }
     else{
       for(var i= ((nowBlock-1)*10)+1; i<=totalPage; i++){
-          $pageMark.children().append("<li><a href='#' class='pageBtn' style='color:black'>"+i+"</a></li>");
+          $pageMark.children().append("<li><a class='pageBtn' style='color:black'>"+i+"</a></li>");
       }
       $pageMark.children().append("<li>▣</li>");
     }

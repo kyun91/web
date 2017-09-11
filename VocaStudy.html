@@ -5,9 +5,11 @@
 <title>English & Literature</title>
 <link rel="stylesheet" href="./css/Main.css">
 <link rel="stylesheet" href="./css/HeaderFooter.css">
+<link rel="stylesheet" href="./css/VocaStudy.css">
 <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="./js/Main.js"></script>
+<script src="./js/VocaStudy.js"></script>
 </head>
 <body>
 <!---------------------------------- Wrapper ------------------------------------------->
@@ -48,8 +50,50 @@
 
 <!---------------------------------- Section ------------------------------------------->
 
-		<section id="main">
+		<section id="main" class="container">
+			<div id="sectionDiv">
+										<div id="topWrapper">
 
+														<div class="topTitle" id="testTitle">
+															Voca Test Paper
+														</div>
+
+														<div id="firstIn">
+																	<ul class="ulTitle">
+																		<div id="exam1">
+																			<li><a class="SelectTitle">단어유형별 TEST</a>
+																				<form class="exam1">
+																						<p><input type="radio" name="Type" value="f" checked id="frequency">
+																						<label for="frequency">Frequency</label></p>
+																						<p><input type="radio" name="Type" value="i" id="idiom">
+																						<label for="idiom">Idiom</label></p>
+																						<p><input type="radio" name="Type" value="s" id="synonym">
+																						<label for="synonym">Synonym</label></p>
+																						<p><input type="button" name="" value="Generate Paper"></p>
+																				</form>
+																			</li>
+																		</div>
+																		<div id="exam2">
+																			<li><a class="unSelected">점수대별   TEST</a>
+																				<form class="exam2 unSelectedCont" >
+																						<p><input type="radio" name="Type" value="se" checked id="seven">
+																						<label for="seven">Score 700</label></p>
+																						<p><input type="radio" name="Type" value="ei" id="eight">
+																						<label for="eight">Score 850</label></p>
+																						<p><input type="radio" name="Type" value="ni" id="nine">
+																						<label for="nine">Score 950</label></p>
+																						<p><input type="button" name="" value="Generate Paper"></p>
+																				</form>
+																			</li>
+																		</div>
+																	</ul>
+
+
+
+
+														</div>
+										</div>
+			</div>
 		</section>
 
 <!------------------------------------- Footer ----------------------------------------->

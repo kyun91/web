@@ -1,0 +1,70 @@
+
+
+ul.ulTitle{
+  margin: 15px auto;
+  list-style: none;
+}
+ul.ulTitle li {
+  display: inline;
+}
+
+#firstIn{
+  width:500px;
+  margin: 0 auto;
+}
+#exam1{
+  float: left;
+}
+
+.unSelected {
+  font-weight: bold;
+  background-color: grey;
+  width: 150px;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.SelectTitle {
+  font-weight: bold;
+  background-color:#0469ad;
+  width: 150px;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+a{
+  cursor:pointer;
+}
+
+#testTitle{
+  width:150px;
+  height: 30px;
+  margin-left: 545px;
+  background-color: #F32C52;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  padding-top: 10px;
+  box-shadow: 2px 5px 10px rgba(255, 0, 0, 0.5);
+  margin-bottom: 50px;
+}
+
+.ulTitle div li a {
+  border-radius: 5px;
+}
+
+form p input[type="button"]{
+    border-radius: 5px;
+    cursor:pointer;
+    background-color: #3dd28d;
+    border:0px;
+    height: 30px;
+    width:150px;
+    color: white;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+}
+
+
+/* *********** form Tag************ */
+
+
+.unSelectedCont{
+  display: none;
+}
